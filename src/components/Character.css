@@ -1,0 +1,30 @@
+.character{
+    flex: 1 1 50%;
+    margin: 10px;
+    background-color: #000000;
+    color: white;
+}
+.heading{
+    text-align: left;
+}
+
+.avatar {
+    display: flex;
+}
+.avatarImage {
+    flex: 1;
+}
+
+.details {
+    padding: 0 10px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 415px){
+  .character{
+    flex: 1 1 25%;
+  }
+}

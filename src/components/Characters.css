@@ -1,0 +1,8 @@
+.container{
+      background-color: #ffffff;      
+}
+.characters{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

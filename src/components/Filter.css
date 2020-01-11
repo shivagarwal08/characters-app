@@ -1,0 +1,23 @@
+.filters {
+    width: 100%;
+}
+.search {
+    width: 100%;
+}
+.sort {
+    width: 100%;
+}
+@media screen and (min-width: 415px){
+    .filters {
+        width: 100%;
+        
+    }
+    .search {
+        width: 40%;
+        display: inline-block;
+    }
+    .sort {
+        width: 30%;
+        display: inline-block;
+    }
+}
